@@ -23,7 +23,9 @@ npm start
 
 ## Configuration
 The SQLite database is used (however, you can easily switch to PostgreSQL or MySQL). All settings are set in config.js
-The main database file is database. sqlite. The empty. sqlite file contains a template file with an empty database.
+
+The main database file is *database.sqlite*. The *empty.sqlite* file contains a template file with an empty database.
+
 Default port - 8080. Can be changed in the config
 
 
