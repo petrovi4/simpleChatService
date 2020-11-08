@@ -7,7 +7,7 @@ Choose your platform here: https://nodejs.org/en/download/package-manager/
 
 ## 1. Clone the git project locally
 ```bash
-git@github.com:petrovi4/simpleChatService.git simpleChatService && cd simpleChatService
+git clone git@github.com:petrovi4/simpleChatService.git simpleChatService && cd simpleChatService
 ```
 
 ## 2. Setup dependencies
