@@ -1,4 +1,5 @@
 import { Message } from '../dto';
+import { uuid } from 'uuidv4';
 
 export async function post({ sender, conversation_id, message }) {
 
@@ -19,7 +20,7 @@ export async function post({ sender, conversation_id, message }) {
 
 		.then(async () => {
 			console.log('Creating a message and saving it in the database');
-			return await Message.create({id: 1, sender, conversation_id, message});
+			return await Message.create({id: uuid(), sender, conversation_id, message});
 		})
 
 		.catch(err => {
